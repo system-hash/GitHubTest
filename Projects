@@ -1,0 +1,23 @@
+#include <iostream>
+#include <Windows.h>
+
+using namespace std;
+
+int main(void)
+{
+    char name;
+    int pwd;
+    cout << "请输入账号：";
+    cin >> name;
+    cout << "请输入密码：";
+    cin >> pwd;
+/*
+    cout << "1.网站 404 攻击" << std::endl;
+    cout << "2.网站篡改攻击" << std::endl;
+    cout << "3.网站攻击记录" << std::endl;
+    cout << "4.DNS 攻击" << std::endl;
+    cout << "5.服务器重启攻击" << std::endl;
+*/
+    system("pause");
+    return 0;
+}
